@@ -715,3 +715,50 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.modal-form {
+  width: 528px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  color: var(--grey-text-color);
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+  letter-spacing: 0.01em;
+}
+.will-call-you {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.modal-form input {
+  margin: 0;
+  padding: 11px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  background-color: transparent;
+  color: inherit;
+}
+.modal-form textarea {
+  padding: 12px 16px;
+  margin: 0 0 20px 0;
+  resize: none;
+  width: 448px;
+  background-color: transparent;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: inherit;
+}
+.modal-form label {
+  display: block;
+  margin-bottom: 4px;
+}
